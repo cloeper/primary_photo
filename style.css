@@ -21,3 +21,7 @@ img.center {
 p.italic {
 	font-style: italic;
 }
+
+.center_text {
+	text-align: center;
+}
