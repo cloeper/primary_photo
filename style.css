@@ -1,6 +1,26 @@
 body { 
-	font-family: Helvetica, Arial, Serif
+	width: 800px;
+	margin: 0 auto;
+	font-family: Helvetica, Arial, Serif;
 }
+
+/*nav {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -o-box;
+	-webkit-box-orient:horizontal;
+	-moz-box-orient:horizontal;
+	-o-box-orient:horizontal;
+}
+
+nav a {
+	display:block;
+	padding:10px;
+	text-align:center;
+	-webkit-box-flex:1;
+	-moz-box-flex:1;
+	-o-box-flex:1;
+}*/
 
 .logo_container {
 	width: 600px;
