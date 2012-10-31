@@ -5,6 +5,7 @@
 	<title>Primary Photo Education LLC</title>
 	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link href="style.css" rel="stylesheet">
+	<link href="gradient.css" rel="stylesheet">
 	<meta name="description" content="Primary Photo Education LLC">  
   	<meta name="author" content="Chris Loeper">
 	<!--[if lt IE 9]>  
@@ -17,6 +18,14 @@
 	<meta property="og:image" content="" />
 	<meta property="og:site_name" content="" />
 	<meta property="fb:admins" content="682345211" />
+
+	<!--[if gte IE 9]>
+	  <style type="text/css">
+	    .gradient {
+	       filter: none;
+	    }
+	  </style>
+	<![endif]-->
 </head>
 
 <body>
@@ -31,56 +40,66 @@
 	}(document, 'script', 'facebook-jssdk'));</script>
 
 	<!-- MAIN HTML -->
-	<div class="container">
-		<div class="navbar">
-		  <div class="navbar-inner">
-		    <a class="brand" href="#">Primary Photo Education</a>
-		    <ul class="nav">
-		      <li class="active"><a href="/">Home</a></li>
-		      <li><a href="/howitworks/">How it Works</a></li>
-		      <li><a href="/workshops/">Workshops</a></li>
-		      <li><a href="/bios/">Bios</a></li>
-		      <li><a href="/faq/">FAQ</a></li>
-		      <li><a href="/contact/">Contact</a></li>
-		    </ul>
-		  </div>
-		</div>
-		<div class="hero-unit">
-			<div class="center center_text">
-				<img align="left" src="images/primary_photo_logo.jpg">
-				<br/>
-				<h2>Primary Photo Education LLC</h2>
-				<p class="italic">Site is under construction!</p>
-				<br/>
-				<a href="http://www.facebook.com/Primary.Photo.Education" target="_blank">facebook</a>
-				&nbsp;|&nbsp;
-				<a href="https://twitter.com/PrimaryPhotoEdu">twitter</a>
-				&nbsp;|&nbsp;
-				<a href="mailto:info@primaryphoto.net?subject=Customer Request">email</a>
-				&nbsp;|&nbsp;
-				<a href="mailto:educators@primaryphoto.net?subject=Appointment Request">book appointment</a>
-				<br/>
-				Call: (503) 862-8531
+	<div class="wrapper">
+		<div class="container">
+			<div class="navbar">
+			  <div class="navbar-inner">
+			    <a class="brand" href="#">Primary Photo Education</a>
+			    <ul class="nav">
+			      <li class="active"><a href="/">Home</a></li>
+			      <li><a href="/howitworks/">How it Works</a></li>
+			      <li><a href="/workshops/">Workshops</a></li>
+			      <li><a href="/pricing/">Pricing</a></li>
+			      <li><a href="/instructors/">Instructors</a></li>
+			      <li><a href="/faq/">FAQ</a></li>
+			      <li><a href="/contact/">Contact</a></li>
+			    </ul>
+			  </div>
+			</div>
+			<div class="hero-unit image_bg">
+				<div class="center center_text">
+					<img align="right" src="images/primary_photo_logo.jpg" height="200">
+					<br/>
+					<div class="header_text">Primary Photo Education LLC</div>
+					<br/>
+					<a href="http://www.facebook.com/Primary.Photo.Education" target="_blank">facebook</a>
+					&nbsp;|&nbsp;
+					<a href="https://twitter.com/PrimaryPhotoEdu">twitter</a>
+					&nbsp;|&nbsp;
+					<a href="mailto:info@primaryphoto.net?subject=Customer Request">email</a>
+					&nbsp;|&nbsp;
+					<a href="mailto:educators@primaryphoto.net?subject=Appointment Request">book appointment</a>
+					<br/>
+					<p style="color: #fff;">Call: (503) 862-8531</p>
+					<br/>
+					<br/>
+					<br/>
+				</div>
+			</div>
+			<div class="row">
+				<div class="span4">
+					<h2>Learn from the best.</h2>
+					<p>Primary Photo Education provides one on one tutorials for anyone who wants to learn more about their camera or just photography, videography in general. You pick the where and the when and we send an instructor to you! (Serving the greater Portland metro area)</p>
+				</div>
+				<div class="span4">
+					<h3>Pricing</h3>
+					<p>$149 for 2 hours</p>
+					<p>We will go anywhere in a 10 mile radius of downtown Portland!</p>
+					<p class="italic">Group seminar classes coming soon!</p>
+				</div>
 			</div>
 		</div>
-		<div class="row">
-			<div class="span4">
-				<h2>Learn from the best.</h2>
-				<p>Primary Photo Education provides one on one tutorials for anyone who wants to learn more about their camera or just photography, videography in general. You pick the where and the when and we send an instructor to you! (Serving the greater Portland metro area)</p>
+		
+		<footer>
+			<div class="container">
+				FOOTER!
+				<div class="fb-like center center_text" 
+					data-href="http://www.facebook.com/Primary.Photo.Education" 
+					data-send="true" 
+					data-width="800" 
+					data-show-faces="true"></div>
 			</div>
-			<div class="span3">
-				<h3>Pricing</h3>
-				<p>$149 for 2 hours</p>
-				<p>We will go anywhere in a 10 mile radius of downtown Portland!</p>
-				<p class="italic">Group seminar classes coming soon!</p>
-			</div>
-		</div>
-		<br/>
-		<div class="fb-like center center_text" 
-			data-href="http://www.facebook.com/Primary.Photo.Education" 
-			data-send="true" 
-			data-width="800" 
-			data-show-faces="true"></div>
+		</footer>
 	</div>
 
     <script src="http://code.jquery.com/jquery-latest.js"></script>
