@@ -26,6 +26,30 @@ div .image_bg {
     padding-top: 1.85em;
 }
 
+p {
+	font-size: 125%;
+}
+
+/*-- CUSTOM CLASSES -----------------------------------------*/
+
+.header_text {
+	font-size: 40px;
+	color: #fff;
+}
+
+.right_border {
+	height:350px;
+	border-right:1px solid #666;
+	padding-right: 5px;
+}
+
+.light_grey_bg {
+	background-color: #ccc;
+}
+
+/*-- END CUSTOM CLASSES -------------------------------------*/
+
+
 
 
 /*-- STICKY FOOTER ------------------------------------------*/
@@ -41,7 +65,8 @@ div .image_bg {
 }
 
 .footer {
-	color: #ccc;
+	margin: 5px 5px 5px 5px;
+	color: #fff;
 	background: #222;
 }
 /*-- END STICKY FOOTER --------------------------------------*/

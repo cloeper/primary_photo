@@ -5,18 +5,39 @@
     <title>Primary Photo Education LLC</title>
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+    <link href="gradient.css" rel="stylesheet">
     <meta name="description" content="Primary Photo Education LLC">  
-      <meta name="author" content="Chris Loeper">
-    <!--[if lt IE 9]>  
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>  
-    <![endif]--> 
+	<meta name="author" content="Chris Loeper">
 
     <meta property="og:title" content="" />
     <meta property="og:type" content="" />
     <meta property="og:url" content="" />
     <meta property="og:image" content="" />
-    <meta property="og:site_name" content="" />
+    <meta property="og:site_name" content="Primary Photo Education LLC" />
     <meta property="fb:admins" content="682345211" />
+    
+	<!-- HTML5 SHIV ---------------------------------------------------------->
+	    
+	    <!--[if lt IE 9]>  
+	      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>  
+	    <![endif]-->
+
+	<!-- END HTML5 SHIV ------------------------------------------------------>
+
+
+
+	<!-- IE9 CSS GRADIENT SUPPORT -------------------------------------------->
+		
+		<!--[if gte IE 9]>
+		  <style type="text/css">
+		    .gradient {
+		       filter: none;
+		    }
+		  </style>
+		<![endif]-->
+
+	<!-- END IE9 CSS GRADIENT SUPPORT ---------------------------------------->
+
 </head>
 <body>
 <!-- FACEBOOK SDK -->
@@ -28,7 +49,7 @@
 	  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
 	  fjs.parentNode.insertBefore(js, fjs);
 	}(document, 'script', 'facebook-jssdk'));</script>
-	
+
     <div id="wrap">
         <div class="container">
             <div class="navbar">
@@ -46,7 +67,7 @@
                 </div>
             </div>
             <div class="hero-unit image_bg">
-                <div class="center center_text">
+                <div>
                     <img align="right" src="images/primary_photo_logo.jpg" height="200">
                     <br/>
                     <div class="header_text">Primary Photo Education LLC</div>
@@ -65,12 +86,23 @@
                     <br/>
                 </div>
             </div>
-            <div class="row">
-                <div class="span4">
-                    <h2>Learn from the best.</h2>
-                    <p>Primary Photo Education provides one on one tutorials for anyone who wants to learn more about their camera or just photography, videography in general. You pick the where and the when and we send an instructor to you! (Serving the greater Portland metro area)</p>
+            <div class="row gradient" style="margin-left: 3px; margin-right: 3px;">
+                <div class="span4 right_border">
+    				<h2>Learn from the best.</h2>
+					<p>Primary Photo Education provides one on one tutorials for anyone who wants to learn more about their camera or just photography, videography in general. You pick the where and the when and we send an instructor to you! (Serving the greater Portland metro area)</p>
                 </div>
-                <div class="span4">
+                <div class="span4 right_border">
+					<h1>How it works</h1>
+					<p>Send us an email with the following:</p>
+					<ul>
+						<li>Contact info (name and phone number)</li>
+						<li>What camera you're using</li>
+						<li>Class preferences (more info)</li>
+						<li>Preferred meeting time</li>
+					</ul>
+					<p>Your instructor will contact you within 24 hours to finalize the details and accept payment.</p>
+                </div>
+                <div class="span3">
                     <h3>Pricing</h3>
                     <p>$149 for 2 hours</p>
                     <p>We will go anywhere in a 10 mile radius of downtown Portland!</p>
