@@ -70,8 +70,13 @@ p {
 	background: #222;
 }
 
-.footer_content {
+.footer_content_right {
 	float: right;
+	line-height: 50px;
+}
+
+.footer_content_left {
+	float: left;
 	line-height: 50px;
 }
 /*-- END STICKY FOOTER --------------------------------------*/
