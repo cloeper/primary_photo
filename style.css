@@ -72,5 +72,6 @@ p {
 
 .footer_content {
 	float: right;
+	line-height: 75px;
 }
 /*-- END STICKY FOOTER --------------------------------------*/
