@@ -47,20 +47,6 @@ p {
 	background-color: #ccc;
 }
 
-.center_vertically {
-	float: right;
-	
-	display: -webkit-box;
-	display: -moz-box;
-	display: -o-box;
-	display: box;
-	
-	-webkit-box-align: center;
-	-moz-box-align: center;
-	-o-box-align: center;
-	box-align: center;
-}
-
 /*-- END CUSTOM CLASSES -------------------------------------*/
 
 
@@ -82,5 +68,9 @@ p {
 	padding: 5px 5px 5px 5px;
 	color: #fff;
 	background: #222;
+}
+
+.footer_content {
+	float: right;
 }
 /*-- END STICKY FOOTER --------------------------------------*/
