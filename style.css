@@ -20,6 +20,27 @@ img .center {
 	margin-right: auto;
 }
 
+div .center800 {
+	width: 800px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div .center600 {
+	width: 600px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div .center400 {
+	width: 400px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 div .image_bg {
     background-image: url('images/primary_photo_bg.jpg');
     background-repeat: no-repeat;
