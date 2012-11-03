@@ -41,6 +41,20 @@ div .center400 {
 	margin-right: auto;
 }
 
+div .instructor_right_border {
+	float: left;
+	margin-left: 20px;
+	width: 275px;
+	border-right:1px solid #666;
+	padding-right: 10px;
+}
+
+div .instructor_no_border {
+	float: left;
+	margin-left: 20px;
+	width: 275px;
+}
+
 div .image_bg {
     background-image: url('images/primary_photo_bg.jpg');
     background-repeat: no-repeat;
