@@ -40,7 +40,9 @@
 
 </head>
 <body>
-<!-- FACEBOOK SDK -->
+	<?php include 'membership_utils.php'; ?>
+
+	<!-- FACEBOOK SDK -->
 	<div id="fb-root"></div>
 	<script>(function(d, s, id) {
 	  var js, fjs = d.getElementsByTagName(s)[0];
@@ -55,45 +57,18 @@
 			<?php include '../navheader.php'; ?>
             <div class="row gradient" style="margin-left: 3px; margin-right: 3px;">
             	<div class="center600">
-            		<h2>Membership</h2>
-            		<ol>
-            			<li>Access every year into our keeping up with the industry webinar</li>
-            			<li>A skills assessment to help focus your education where it's needed</li>
-            			<li>30% off one-on-one tutorials and group workshops</li>
-            			<li>Access to our electronic and phone support.</li>
-            		</ol>
+                    <?php
+                        if ($_POST['submit']) {
+                            displayMembershipMessage();
+                        } else {
+                            displayMembershipForm();
+                        }
+                    ?>
             	</div>
             </div>
         </div>
         <div id="push"></div>
     </div>
-    <div id="footer" class="footer">
-        <div class="container">
-        	<div class="footer_content_left">
-				<!-- YELP LINK ======================================================-->
-	            <a href="http://www.yelp.com/biz/primary-photo-education-llc-portland">
-	            	<img src="../images/yelp_icon.jpg" alt="Primary Photo Education LLC on Yelp!" /> 
-				</a>
-				<!-- END YELP LINK ==================================================-->
-        	</div>
-        	<div class="footer_content_right">
-	        	<!-- FACEBOOK LINK ==================================================-->
-	            <div class="fb-like"
-	            	style="color: #fff;" 
-	                data-href="http://www.facebook.com/Primary.Photo.Education" 
-	                data-send="true" 
-	                data-width="200"
-	                data-height="70"
-	                data-show-faces="false">
-	            </div>
-				<!-- END FACEBOOK LINK ==============================================-->
-
-				<!-- TWITTER LINK ===================================================-->
-				<a href="https://twitter.com/primaryphotoedu" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @primaryphotoedu</a>
-				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-				<!-- END TWITTER LINK ===============================================-->
-			</div>
-        </div>
-    </div>
+	<?php include '../footer.php'; ?>
 </body>
 </html>

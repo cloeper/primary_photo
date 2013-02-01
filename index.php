@@ -66,11 +66,10 @@
 						<li>Your name and phone number</li>
 						<li>What camera you're using</li>
 						<li>What you'd like to learn</li>
-						<li>Class preferences (<a href="/howitworks/index.html#class_preferences">details</a>)</li>
+						<li>Class preferences</li>
 						<li>Preferred meeting time</li>
 					</ul>
 					<p>Your instructor will contact you within 24 hours to finalize the details and accept payment.</p>
-					<p><a href="/howitworks/">more</a></p>
                 </div>
                 <div class="span4">
                     <h2>Pricing</h2>
@@ -86,33 +85,6 @@
         </div>
         <div id="push"></div>
     </div>
-    <div id="footer" class="footer">
-        <div class="container">
-        	<div class="footer_content_left">
-				<!-- YELP LINK ======================================================-->
-	            <a href="http://www.yelp.com/biz/primary-photo-education-llc-portland">
-	            	<img src="images/yelp_icon.jpg" alt="Primary Photo Education LLC on Yelp!" /> 
-				</a>
-				<!-- END YELP LINK ==================================================-->
-        	</div>
-        	<div class="footer_content_right">
-	        	<!-- FACEBOOK LINK ==================================================-->
-	            <div class="fb-like"
-	            	style="color: #fff;" 
-	                data-href="http://www.facebook.com/Primary.Photo.Education" 
-	                data-send="true" 
-	                data-width="200"
-	                data-height="70"
-	                data-show-faces="false">
-	            </div>
-				<!-- END FACEBOOK LINK ==============================================-->
-
-				<!-- TWITTER LINK ===================================================-->
-				<a href="https://twitter.com/primaryphotoedu" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @primaryphotoedu</a>
-				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-				<!-- END TWITTER LINK ===============================================-->
-			</div>
-        </div>
-    </div>
+    <?php include 'footer-index.php'; ?>
 </body>
 </html>

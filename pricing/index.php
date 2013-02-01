@@ -57,10 +57,19 @@
                 <div class="center600">
                     <h2>Pricing</h2>
                     <p>
-                        Typically one-on-one seminars cost $149.00/2 hours.  We do, however, frequently run discounts and coupons on websites like Groupon.com, LivingSocial.com, MercPerks.com, Tippr.com and Perks.com.  You can also find our paper coupons in many local camera stores and print shops. We also have been known to offer discounts to return customers and referred customers.
+                        Typically one-on-one seminars cost $149.00/2 hours.  We do, however, frequently run discounts and coupons on websites like Groupon.com, LivingSocial.com, MercPerks.com, Tippr.com, Indegogo.com and Perks.com.  You can also find our paper coupons in many local camera stores and print shops. We also have been known to offer discounts to return customers and referred customers.
                     </p>
+                    <ul>
+                        <li><p>2 hour one-on-one seminar = $149.00 (30% off for members)</p></li>
+                        <li><p>Workshops (ranging by subject) = $75 to $500 (30% off for members)</p></li>
+                        <li><p>Memberships = $15/month</p></li>
+                    </ul>
                     <br/>
                     <br/>
+                    <p>Check out our limited time reduced pricing at indegogo.com!</p>
+                    <a href="http://www.indiegogo.com/Primaryphoto/x/2115019">
+                        <img src="../images/indiegogo_logo.png" width="200px">
+                    </a>
                     <br/>
                     <br/>
                     <br/>
@@ -79,33 +88,6 @@
         </div>
         <div id="push"></div>
     </div>
-    <div id="footer" class="footer">
-        <div class="container">
-        	<div class="footer_content_left">
-				<!-- YELP LINK ======================================================-->
-	            <a href="http://www.yelp.com/biz/primary-photo-education-llc-portland">
-	            	<img src="../images/yelp_icon.jpg" alt="Primary Photo Education LLC on Yelp!" /> 
-				</a>
-				<!-- END YELP LINK ==================================================-->
-        	</div>
-        	<div class="footer_content_right">
-	        	<!-- FACEBOOK LINK ==================================================-->
-	            <div class="fb-like"
-	            	style="color: #fff;" 
-	                data-href="http://www.facebook.com/Primary.Photo.Education" 
-	                data-send="true" 
-	                data-width="200"
-	                data-height="70"
-	                data-show-faces="false">
-	            </div>
-				<!-- END FACEBOOK LINK ==============================================-->
-
-				<!-- TWITTER LINK ===================================================-->
-				<a href="https://twitter.com/primaryphotoedu" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @primaryphotoedu</a>
-				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-				<!-- END TWITTER LINK ===============================================-->
-			</div>
-        </div>
-    </div>
+    <?php include '../footer.php'; ?>
 </body>
 </html>
