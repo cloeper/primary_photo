@@ -82,6 +82,28 @@ p {
 	background-color: #ccc;
 }
 
+/* FORMS */
+
+form label {
+	font-size: 150%;
+	margin-top: 10px;
+}
+
+form:first-child {
+	margin-top: 0;
+}
+
+input[type="text"] {
+	width: 250px;
+}
+
+input[type="email"] {
+	width: 350px;
+}
+
+/* END FORMS */
+
+
 /*-- END CUSTOM CLASSES -------------------------------------*/
 
 
