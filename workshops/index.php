@@ -6,7 +6,7 @@
     <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="../style.css" rel="stylesheet">
     <link href="../gradient.css" rel="stylesheet">
-    <meta name="description" content="Primary Photo Education LLC">  
+    <meta name="description" content="Primary Photo Education LLC">
 	<meta name="author" content="Chris Loeper">
 
     <meta property="og:title" content="" />
@@ -15,11 +15,11 @@
     <meta property="og:image" content="" />
     <meta property="og:site_name" content="Primary Photo Education LLC" />
     <meta property="fb:admins" content="682345211" />
-    
+
 	<!-- HTML5 SHIV ========================================================-->
-	    
-	    <!--[if lt IE 9]>  
-	      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>  
+
+	    <!--[if lt IE 9]>
+	      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	    <![endif]-->
 
 	<!-- END HTML5 SHIV ====================================================-->
@@ -27,7 +27,7 @@
 
 
 	<!-- IE9 CSS GRADIENT SUPPORT ==========================================-->
-		
+
 		<!--[if gte IE 9]>
 		  <style type="text/css">
 		    .gradient {
@@ -57,17 +57,7 @@
                 <div class="center600">
                     <h2>Workshops</h2>
                     <p>
-                        We are in the process of developing an ongoing series of group workshops for people who want to take the next step beyond our one-on-one basic seminars.  These workshops will be made up of 30-50 people depending on the subject matter, will have professionally proffered and industry standard equipment for you to try out and cover topics like:
-                    </p>
-
-                    <ul>
-                        <li><p>Action/Sports photography where you’ll learn hands on with us right from the sidelines</p></li>
-                        <li><p>Star trails workshops held under some of the most jaw-dropping star filled skies</p></li>
-                        <li><p>Wedding/Event overviews where we literally stage a wedding so you get all the needed experience to start or improve your own photo business.</p></li>
-                    </ul>                
-
-                    <p>
-                        Got an idea for a workshop, want us to design a group workshop for your company, or just want to let us know you’re interested? Feel free to <a href="../contact/">contact</a> us.
+                        For more information about our up and coming workshops, visit our page at <a href="http://www.indiegogo.com/Primaryphoto/x/2115019" target="_blank">indiegogo.com</a > or <a href="../contact/">contact</a> us.
                     </p>
                     <br/>
                     <br/>

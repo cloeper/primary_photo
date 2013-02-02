@@ -16,9 +16,12 @@ echo '<h2>Membership</h2>
         <label for="last_name">Last Name</label>
         <input name="last_name" type="text" placeholder="last name" required>
 
+        <label for="company_name">Company Name</label>
+        <input name="company_name" type="text" placeholder="company name">
+
         <label for="phone">Phone Number</label>
         <input name="phone" type="tel" placeholder="phone number" required>
-                
+
         <label for="email">Email</label>
         <input name="email" type="email" placeholder="email address" required>
 
@@ -26,9 +29,14 @@ echo '<h2>Membership</h2>
         <textarea class="field span6" rows="6" name="desired_learning" placeholder="Type Here" required></textarea>
         <label for="human">What is 2+2? (Anti-spam)</label>
         <input name="human" type="text" placeholder="type here">
+        <div class="small_form_text">
+            <label for="tandc_checkbox">I have read and agree to the <a href="../terms_and_conditions_for_members.txt" target="_blank">Terms and Conditions</a></label>
+            <input type="checkbox" required="required" id="tandc_checkbox" name="tandc_checkbox">
+        </div>
+        <div style="clear: both;">&nbsp;</div>
         <br/>
         <input id="submit" name="submit" type="submit" value="Proceed to Payment">
-	</form>';	
+	</form>';
 }
 
 function displayMembershipMessage() {
@@ -40,12 +48,13 @@ function displayMembershipMessage() {
 		$headers .= "MIME-Version: 1.0\r\n";
 		$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
-    	$from 		= 'From: Primary Photo Education Website'; 
-    	$to 		= 'chrisloeper@gmail.com'; 
-    	$subject 	= 'Booking Request';
+    	$from 		= 'From: Primary Photo Education Website';
+    	$to 		= 'keith@primaryphoto.net';
+    	$subject 	= 'Membership Request';
 
 		$first_name = $_POST['first_name'];
 		$last_name  = $_POST['last_name'];
+        $company_name  = $_POST['company_name'];
 		$phone 		= $_POST['phone'];
 	    $email 		= $_POST['email'];
     	$lesson 	= $_POST['desired_learning'];
@@ -55,6 +64,7 @@ function displayMembershipMessage() {
 		$body .= "<table rules='all' style='border-color: #666;' cellpadding='10'>";
 		$body .= "<tr><td colspan='2'><strong>MEMBERSHIP REQUEST</strong></td></tr>";
     	$body .= "<tr><td><strong>From:</strong></td><td>$first_name $last_name</td></tr>";
+        $body .= "<tr><td><strong>Company:</strong></td><td>$company_name</td></tr>";
     	$body .= "<tr><td><strong>Email:</strong></td><td>$email</td></tr>";
     	$body .= "<tr><td><strong>Phone:</strong></td><td>$phone</td></tr>";
 		$body .= "<tr><td colspan='2'><strong>$first_name $last_name would like to learn about:</td></tr>";
@@ -62,8 +72,8 @@ function displayMembershipMessage() {
 		$body .= "</table>";
 		$body .= "</body></html>";
 
-	    if (mail ($to, $subject, $body, $headers)) { 
-	        echo '<h3>Almost done!</h3> 
+	    if (mail ($to, $subject, $body, $headers)) {
+	        echo '<h3>Almost done!</h3>
 	        	  <p>Your membership will be active after your transation is complete.</p>
 	        	  <p>Please click below to continue payment.</p>
 					<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -72,8 +82,8 @@ function displayMembershipMessage() {
 						<input style="width: 100px;" type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribe_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 						<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 					</form>';
-	    } else { 
-	        echo '<p>Something went wrong, go back and try again!</p>'; 
+	    } else {
+	        echo '<p>Something went wrong, go back and try again!</p>';
 	    }
 	} else if ($_POST['submit'] && $human != '4') {
 	    echo '<p>You answered the anti-spam question incorrectly!</p>';
@@ -87,6 +97,6 @@ function sendEmailToInstructors() {
 }
 
 function sendEmailToStudent() {
-	
+
 }
 ?>

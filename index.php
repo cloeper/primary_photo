@@ -1,38 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <title>Primary Photo Education LLC</title>
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
-    <link href="gradient.css" rel="stylesheet">
-    <meta name="description" content="Primary Photo Education LLC">  
+	<meta charset="utf-8" />
+	<title>Primary Photo Education LLC</title>
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+	<link href="gradient.css" rel="stylesheet">
+	<meta name="description" content="Primary Photo Education LLC">
 	<meta name="author" content="Chris Loeper">
 
-    <meta property="og:title" content="" />
-    <meta property="og:type" content="" />
-    <meta property="og:url" content="" />
-    <meta property="og:image" content="" />
-    <meta property="og:site_name" content="Primary Photo Education LLC" />
-    <meta property="fb:admins" content="682345211" />
-    
+	<meta property="og:title" content="" />
+	<meta property="og:type" content="" />
+	<meta property="og:url" content="" />
+	<meta property="og:image" content="" />
+	<meta property="og:site_name" content="Primary Photo Education LLC" />
+	<meta property="fb:admins" content="682345211" />
+
 	<!-- HTML5 SHIV ========================================================-->
-	    
-	    <!--[if lt IE 9]>  
-	      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>  
-	    <![endif]-->
+
+		<!--[if lt IE 9]>
+		  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
 
 	<!-- END HTML5 SHIV ====================================================-->
 
 
 
 	<!-- IE9 CSS GRADIENT SUPPORT ==========================================-->
-		
+
 		<!--[if gte IE 9]>
 		  <style type="text/css">
-		    .gradient {
-		       filter: none;
-		    }
+			.gradient {
+			   filter: none;
+			}
 		  </style>
 		<![endif]-->
 
@@ -50,41 +50,35 @@
 	  fjs.parentNode.insertBefore(js, fjs);
 	}(document, 'script', 'facebook-jssdk'));</script>
 
-    <div id="wrap">
-        <div class="container">
-            <?php include 'navheader-index.php'; ?>
-            <div class="row gradient" style="margin-left: 3px; margin-right: 3px;">
-                <div class="span4 right_border">
-    				<h2>Learn from the best.</h2>
-					<p>Primary Photo Education provides one on one tutorials for anyone who wants to learn more about their camera or just photography, videography in general. You pick the where and the when and we send an instructor to you! (Serving the greater Portland metro area)</p>
+	<div id="wrap">
+		<div class="container">
+			<?php include 'navheader-index.php'; ?>
+			<div class="row gradient" style="margin-left: 3px; margin-right: 3px;">
+				<div class="span4 right_border">
+					<h2>Learn from the best.</h2>
+					<p>We are a team of professional photographers and educators dedicated to teaching you everything about photography, videography, lighting, sound, editing, and more! We offer one-on-one classes with flexible locations and times to meet even the toughest of schedules. When paired with our intensive group workshops and multi-benefit membership program, there's nothing we can't help you accomplish.</p>
 					<p><a href="/instructors/">more</a></p>
-                </div>
-                <div class="span3 right_border">
-					<h1>How it works.</h1>
-					<p>Send us an email with the following:</p>
+				</div>
+				<div class="span4 right_border">
+					<h2>Let's get Started</h2>
+					<p>To book a one-on-one seminar <a href="/booking">click here</a>.</p>
+					<p>To learn more about our memberships <a href="/membership">click here</a>.</p>
+				</div>
+				<div class="span3">
+					<h2>Pricing</h2>
 					<ul>
-						<li>Your name and phone number</li>
-						<li>What camera you're using</li>
-						<li>What you'd like to learn</li>
-						<li>Class preferences</li>
-						<li>Preferred meeting time</li>
+						<li>2 hour one-on-one seminar are $149.00 (30% off for members)</li>
+						<li>Workshops (ranging by subject) are $75 to $500 (30% off for members)</li>
+						<li>Memberships are $15/month</li>
 					</ul>
-					<p>Your instructor will contact you within 24 hours to finalize the details and accept payment.</p>
-                </div>
-                <div class="span4">
-                    <h2>Pricing</h2>
-                    <h3>Basic Seminar</h3>
-                    <p>
-						We provide comprehensive one-on-one classes to anyone who wants to learn more about photography, videography, sound, lighting, editing and more. You pick the time, topic and place, and we'll send the instructor to you! $149.00/2 hours.
-                    </p>
-                    <p><a href="/pricing/">more</a></p>
-                    <br/>
-                    <p><a href="/workshops/">Group seminar classes</a> coming soon!</p>
-                </div>
-            </div>
-        </div>
-        <div id="push"></div>
-    </div>
-    <?php include 'footer-index.php'; ?>
+					<p><a href="/pricing/">more</a></p>
+					<br/>
+					<p>Learn more about our up and coming workshops <a href="http://www.indiegogo.com/Primaryphoto/x/2115019" target="_blank">here</a></p>
+				</div>
+			</div>
+		</div>
+		<div id="push"></div>
+	</div>
+	<?php include 'footer-index.php'; ?>
 </body>
 </html>

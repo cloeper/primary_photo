@@ -15,7 +15,7 @@ img {
 }
 
 img .center {
-	display: block;   
+	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -80,6 +80,25 @@ p {
 
 .light_grey_bg {
 	background-color: #ccc;
+}
+
+.soft_round_background {
+	background: rgba(0, 0, 0, 0.7);
+}
+
+.small_form_text {
+	font-size: 10px;
+	clear: both;
+}
+
+.small_form_text label {
+	float: left;
+}
+
+.small_form_text input {
+	float: left;
+	height: 30px;
+	margin-left: 5px;
 }
 
 /* FORMS */
