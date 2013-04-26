@@ -66,10 +66,6 @@
                     </ul>
                     <br/>
                     <br/>
-                    <p>Check out our limited time reduced pricing at indegogo.com!</p>
-                    <a href="http://www.indiegogo.com/Primaryphoto/x/2115019">
-                        <img src="../images/indiegogo_logo.png" width="200px">
-                    </a>
                     <br/>
                     <br/>
                     <br/>

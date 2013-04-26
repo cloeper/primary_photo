@@ -57,7 +57,7 @@
                 <div class="center600">
                     <h2>Workshops</h2>
                     <p>
-                        For more information about our up and coming workshops, visit our page at <a href="http://www.indiegogo.com/Primaryphoto/x/2115019" target="_blank">indiegogo.com</a > or <a href="../contact/">contact</a> us.
+                        For more information about our up and coming workshops, <a href="../contact/">contact</a> us.
                     </p>
                     <br/>
                     <br/>

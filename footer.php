@@ -5,9 +5,6 @@
             <a href="http://www.yelp.com/biz/primary-photo-education-llc-portland" target="_blank">
             	<img src="../images/yelp_icon.jpg" alt="Primary Photo Education LLC on Yelp!" />
 			</a>
-            <a href="http://www.indiegogo.com/Primaryphoto/x/2115019" target="_blank">
-                <img src="../images/indiegogo_logo.png" width="200px">
-            </a>
             <a href="http://www.tattooroadtrip.com" target="_blank">
                 <img src="../images/tattoo_roadtrip_logo.jpg" width="100px">
             </a>

@@ -73,7 +73,6 @@
 					</ul>
 					<p><a href="/pricing/">more</a></p>
 					<br/>
-					<p>Learn more about our up and coming workshops <a href="http://www.indiegogo.com/Primaryphoto/x/2115019" target="_blank">here</a></p>
 				</div>
 			</div>
 		</div>
