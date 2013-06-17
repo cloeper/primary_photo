@@ -57,12 +57,16 @@
             <?php include '../navheader.php'; ?>
             <div class="row gradient" style="margin-left: 3px; margin-right: 3px;">
                 <div class="center600">
-                    <h1>Book an Appointment</h1>
+                    <h1>Workshop Reservation Form</h1>
+                    <h2 style="color: #88BB00;">Bugs and Blooms!</h2>
+                    <h3  style="color: #337700;">Up Close Wildlife and Wilderness Photo Workshop</h3>
+                    <h4>50 Seats Total</h4>
+                    <br/>
                     <?php
                         if ($_POST['submit']) {
-                            displayBookingSentMessage();
+                            displayWorkshop1BookingSentMessage();
                         } else {
-                            displayBookingForm(); 
+                            displayWorkshop1BookingForm(); 
                         }
                     ?>
                 </div>
@@ -70,6 +74,7 @@
         </div>
         <div id="push"></div>
     </div>
+    
     <?php include '../footer.php'; ?>
 </body>
 </html>
