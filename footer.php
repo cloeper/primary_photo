@@ -8,6 +8,9 @@
             <a href="http://www.tattooroadtrip.com" target="_blank">
                 <img src="../images/tattoo_roadtrip_logo.jpg" width="100px">
             </a>
+            <a href="http://www.thebugchicks.com" target="_blank">
+                <img src="../images/bug_chick_logo.jpeg" width="100px">
+            </a>
 			<!-- END YELP LINK ==================================================-->
     	</div>
     	<div class="footer_content_right">

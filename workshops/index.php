@@ -56,13 +56,20 @@
             <div class="row gradient" style="margin-left: 3px; margin-right: 3px;">
                 <div class="center600">
                     <h1>Workshops</h1>
-                    <hr/>
+                    <hr/>                
+                    <div style="float: left;">
+                        <img style="width: 195px;" src="../images/rose.jpeg">
+                        <img style="width: 195px;" src="../images/beetle_finger.jpeg">
+                        <img style="width: 195px;" src="../images/milla.jpeg">
+                    </div>
+                    <div style="clear: both;">
+                    </div>
                     <h2 style="color: #88BB00;">Bugs and Blooms!</h2>
                     <h3  style="color: #337700;">Up Close Wildlife and Wilderness Photo Workshop</h3>
                     <br/>
-                    <a href="book_workshop1.php" style="font-size: 14px;">Book 10am-12pm Workshop</a>
+                    <a href="book_workshop1.php" style="font-size: 18px;">Book 10am-12pm Workshop</a>
                     <br/>
-                    <a href="book_workshop2.php" style="font-size: 14px;">Book 1pm-3pm Workshop</a>
+                    <a href="book_workshop2.php" style="font-size: 18px;">Book 1pm-3pm Workshop</a>
                     <br/>
                     <br/>
                     <p>Primary Photo has teamed up with the Bug Chicks to bring you a macro photography workshop like never before! Learn how to photograph creepycrawling critters and flowers in full bloom with fantastic results. After experiencing Primary Photo’s signature hands-on instruction and the Bug Chick’s vast knowledge of insects and spiders you will leave knowing where to look, what to bring and how to set up for mind blowing close-ups!</p>
@@ -72,7 +79,6 @@
                     <h3>When:</h3>
                     <h3>Saturday July 27, 2013 10am-12pm or 1pm-3pm</h3>
                     <p>Both the morning and the afternoon classes are exactly the same. The workshop will be held outside under a canopy so dress for the outdoors.</p>
-                    <a href="book_workshop1.php" style="font-size: 14px;">Book it!</a>
                     <br/>
                     <br/>
                     <h3>What to Bring:</h3>

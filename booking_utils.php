@@ -53,7 +53,7 @@ function displayBookingSentMessage() {
 		$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
     	$from 		= 'From: Primary Photo Education Website';
-    	$to 		= 'keith@primaryphoto.net';
+    	$to 		= 'info@primaryphoto.net';
     	$subject 	= 'Booking Request';
 
 		$first_name = $_POST['first_name'];
@@ -123,6 +123,9 @@ function displayBookingSentMessage() {
 function displayWorkshop1BookingForm() {
 echo '<form class="well" method="post" action="book_workshop1.php">
 
+        <label for="voucher">Living Social Voucher</label>
+        <input name="voucher" type="text" placeholder="living social voucher">
+
         <label for="first_name">First Name</label>
         <input name="first_name" type="text" placeholder="first name" required>
 
@@ -156,6 +159,9 @@ echo '<form class="well" method="post" action="book_workshop1.php">
 
 function displayWorkshop2BookingForm() {
 echo '<form class="well" method="post" action="book_workshop2.php">
+
+        <label for="voucher">Living Social Voucher</label>
+        <input name="voucher" type="text" placeholder="living social voucher">
 
         <label for="first_name">First Name</label>
         <input name="first_name" type="text" placeholder="first name" required>
@@ -198,9 +204,10 @@ function displayWorkshop1BookingSentMessage() {
 		$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
     	$from 		= 'From: Primary Photo Education Website';
-    	$to 		= 'keith@primaryphoto.net';
+    	$to 		= 'info@primaryphoto.net';
     	$subject 	= 'Booking Request';
 
+    	$voucher    = $_POST['voucher'];
 		$first_name = $_POST['first_name'];
 		$last_name  = $_POST['last_name'];
 		$phone 		= $_POST['phone'];
@@ -212,6 +219,7 @@ function displayWorkshop1BookingSentMessage() {
 		$body .= "<table rules='all' style='border-color: #666;' cellpadding='10'>";
 		$body .= "<tr><td colspan='2'><strong>WORKSHOP REQUEST (Bugs and Blooms 10am)</strong></td></tr>";
     	$body .= "<tr><td><strong>From:</strong></td><td>$first_name $last_name</td></tr>";
+    	$body .= "<tr><td><strong>LS Voucher:</strong></td><td>$voucher</td></tr>";
     	$body .= "<tr><td><strong>Email:</strong></td><td>$email</td></tr>";
     	$body .= "<tr><td><strong>Phone:</strong></td><td>$phone</td></tr>";
 		$body .= "<tr><td><strong>Camera:</strong></td><td>$camera</td></tr>";
@@ -266,9 +274,10 @@ function displayWorkshop2BookingSentMessage() {
 		$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
     	$from 		= 'From: Primary Photo Education Website';
-    	$to 		= 'keith@primaryphoto.net';
+    	$to 		= 'info@primaryphoto.net';
     	$subject 	= 'Booking Request';
 
+		$voucher    = $_POST['voucher'];
 		$first_name = $_POST['first_name'];
 		$last_name  = $_POST['last_name'];
 		$phone 		= $_POST['phone'];
@@ -280,6 +289,7 @@ function displayWorkshop2BookingSentMessage() {
 		$body .= "<table rules='all' style='border-color: #666;' cellpadding='10'>";
 		$body .= "<tr><td colspan='2'><strong>WORKSHOP REQUEST (Bugs and Blooms 1pm)</strong></td></tr>";
     	$body .= "<tr><td><strong>From:</strong></td><td>$first_name $last_name</td></tr>";
+    	$body .= "<tr><td><strong>LS Voucher:</strong></td><td>$voucher</td></tr>";
     	$body .= "<tr><td><strong>Email:</strong></td><td>$email</td></tr>";
     	$body .= "<tr><td><strong>Phone:</strong></td><td>$phone</td></tr>";
 		$body .= "<tr><td><strong>Camera:</strong></td><td>$camera</td></tr>";
