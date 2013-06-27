@@ -49,7 +49,7 @@ function displayMembershipMessage() {
 		$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
     	$from 		= 'From: Primary Photo Education Website';
-    	$to 		= 'keith@primaryphoto.net';
+    	$to 		= 'info@primaryphoto.net';
     	$subject 	= 'Membership Request';
 
 		$first_name = $_POST['first_name'];
