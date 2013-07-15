@@ -67,6 +67,9 @@
                     <h2 style="color: #88BB00;">Bugs and Blooms!</h2>
                     <h3  style="color: #337700;">Up Close Wildlife and Wilderness Photo Workshop</h3>
                     <br/>
+                    <p>$75 with promo code. Call (503) 862-8531 for details</p>
+                    <p>$100 for members</p>
+                    <p>$150 standard"</p>
                     <a href="book_workshop1.php" style="font-size: 18px;">Book 10am-12pm Workshop</a>
                     <br/>
                     <a href="book_workshop2.php" style="font-size: 18px;">Book 1pm-3pm Workshop</a>
