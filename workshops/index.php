@@ -78,7 +78,7 @@
                     <h3>Portland International Rose Test Garden Picnic Site A</h3>
                     <p>Parking is limited, so if you plan to drive we recommend you leave your vehicle near the Washington Park Max stop and take the Washington Park Loop Shuttle #83 to Stop ID 10488.</p>
                     <h3>When:</h3>
-                    <h3>Saturday July 27, 2013 10am-12pm or 1pm-3pm</h3>
+                    <h3>Saturday July 27, 2013 10am-12pm</h3>
                     <p>Both the morning and the afternoon classes are exactly the same. The workshop will be held outside under a canopy so dress for the outdoors.</p>
                     <br/>
                     <br/>
